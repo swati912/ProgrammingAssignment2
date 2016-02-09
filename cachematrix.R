@@ -20,7 +20,6 @@ makeCacheMatrix <- function(x = matrix()) {
        getInverse = getInverse)
 }
 
-
 ## cacheSolve - This matrix calculates the inverse of the matrix and caches the inverse.
 
 cacheSolve <- function(x, ...) {
